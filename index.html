@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Интернет-магазин</title>
+</head>
+<body>
+  <header>
+    <h1>Интернет-магазин XIAOMI</h1>
+    <div id="cart" class="cart">
+      <a href="#" onclick="showCart()">Корзина (0)</a>
+    </div>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <h2>Категории товаров</h2>
+    <ul>
+      <li><a href="#" onclick="filterByCategory('phones')">Телефоны</a></li>
+      <li><a href="#" onclick="filterByCategory('laptop')">Ноутбуки</a></li>
+      <li><a href="#" onclick="filterByCategory('desktop')">Компьютеры</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section class="product">
+      <img src="./image/141.png" alt="iPhone 13 128gb">
+      <h2>Xiaomi 14 pro</h2>
+      <p>Цена: 90.000₽</p>
+      <button onclick="addToCart(1)">Добавить в корзину</button>
+    </section>
+
+    <section class="product">
+      <img src="./image/f3.png" alt="iPhone 12 64gb">
+      <h2>Poco f3 gt</h2>
+      <p>Цена: 60.000₽</p>
+      <button onclick="addToCart(2)">Добавить в корзину</button>
+    </section>
+
+    <section class="product">
+        <img src="./image/13T.png" alt="iPhone 11 64gb">
+        <h2>Xiaomi 13T</h2>
+        <p>Цена: 44.000₽</p>
+        <button onclick="addToCart(2)">Добавить в корзину</button>
+      </section>
+
+      <section class="product">
+        <img src="./image/13.png" alt="iPhone SE 64gb">
+        <h2>Xiaomi 13</h2>
+        <p>Цена: 30.000₽</p>
+        <button onclick="addToCart(2)">Добавить в корзину</button>
+      </section>
+
+      
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Интернет-магазин</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

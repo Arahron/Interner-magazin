@@ -1,0 +1,124 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(255, 153, 0);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .sidebar {
+    padding: 20px;
+    background-color: rgb(255, 153, 0);;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 15px;
+    margin-top: 100px;
+    color: #ffffff
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+
+  .sidebar ul li:hover {
+    color: rgb(255, 145, 0);
+    background-color: #636363;
+    width: 100px;
+    height: 24px;
+    border-radius: 15px;
+    transition: 1s;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .cart {
+    float: right;
+    padding-right: 20px;
+    margin-top: -33px;
+  }
+  
+  .cart a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 210px;
+    margin-top: -200px;
+    
+  }
+  
+  .product {
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .product button {
+    background-color: rgb(255, 153, 0);;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .product:hover{
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 4px 4px 28.9px 0px #343434;
+  }
+  
+  footer {
+    background-color: rgb(255, 153, 0);;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
